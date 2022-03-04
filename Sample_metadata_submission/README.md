@@ -10,6 +10,11 @@ Contains:
 
 **Version history**
 
+**2.0.0**
+  - Added fields for:
+    - Hyperspectral_analysis
+    - Hyperspectral_analysis_method
+
 **1.0.0**
 
 Initial commit of Sample_submission_sheet.xlsx
