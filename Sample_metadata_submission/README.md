@@ -11,7 +11,8 @@ Contains:
 **Version history**
 
 **3.0.0**
-- Submission sheets are compatible with version 4.0 of the contextual database:
+- Submission sheets are compatible with version 4.0.0 of the contextual database:
+https://github.com/AusMicrobiome/contextualdb_doc/raw/4.0.0/db_schema_definitions/db_schema_definitions.xlsx
 - `Fresh Water` sheet modified to align the units of some columns with Marine database fields. Added information on unit conversion factors for data obtained from CSBP lab analysis to column headers. Note: `\n` in field name represents a Line Feed/Newline.
 
     - New fields added to `Fresh Water` sheet:
