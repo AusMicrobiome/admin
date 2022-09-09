@@ -10,10 +10,42 @@ Contains:
 
 **Version history**
 
+**3.0.0**
+- Submission sheets are compatible with version 4.0 of the contextual database:
+- `Fresh Water` sheet modified to align the units of some columns with Marine database fields. Added information on unit conversion factors for data obtained from CSBP lab analysis to column headers. Note: `\n` in field name represents a Line Feed/Newline.
+
+    - New fields added to `Fresh Water` sheet:
+        - `Bicarbonate_(mg/L)`
+        - `Bicarbonate_method`
+        - `Carbonate_(mg/L)`
+        - `Carbonate_method`
+        - `Ammonium_nitrogen_(umol/l N)\n*CSBP conversion: (CSBP_value*1000)/14.006720`
+        - `Ammonium_nitrogen_(umol/l N)_method`
+
+   - Changed field names on `Fresh Water` sheet
+     - `Nitrate_nitrogen_(mg/kg)` to `Nitrate_nitrogen_(umol/l N)\n*CSBP conversion: (CSBP_value*1000)/14.006720`
+     - `Nitrate_nitrogen_method` to `Nitrate_nitrogen_(umol/l N)_method`
+     - `Conductivity_(dS/m)` to `Conductivity_(S/m)\n*CSBP conversion: CSBP_value*10`
+     - `Conductivity_method(dS/m)` to `Conductivity_(S/m)_method`
+
+   - Deleted fields from `Fresh Water` analysis sheet
+     - `Carbonate/bicarbonate_(mg/L)`
+     - `Carbonate/bicarbonate_method`
+
+ - New fields added to `Coastal Water` and `Pelagic Water` sheets
+    - `Picoeukaryotes_(cells_per_ml)`
+    - `Picoeukaryotes_method`
+    - `Prochlorococcus_(cells_per_ml)`
+    - `Prochlorococcus_method`
+    - `Synechococcus_(cells_per_ml)`
+    - `Synechococcus_method`
+
+- Added information to the `README_v3.0.0` sheet describing the process for submitting CSBP analysis sheets directly to the AM.
+
 **2.0.0**
   - Added fields for:
-    - Hyperspectral_analysis
-    - Hyperspectral_analysis_method
+    - `Hyperspectral_analysis`
+    - `Hyperspectral_analysis_method`
 
 **1.0.0**
 
