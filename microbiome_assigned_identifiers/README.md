@@ -11,6 +11,10 @@ Future updates will include project identifiers and DOIs as well as completion o
 
 <b>Version history</b>
 
+**1.0.1**
+
+Updated file with 1028 new sample IDs
+
 <b>1.0.0</b>
 
 Initial commit of microbiome_mintedID_complete_list.csv
