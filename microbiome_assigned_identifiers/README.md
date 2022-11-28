@@ -13,7 +13,8 @@ Future updates will include project identifiers and DOIs as well as completion o
 
 **1.0.2**
 
-Updated file with 12 new sample IDs
+Updated file with 12 new sample IDs (28 Nov 2022)
+Inclusion of project identifiers and DOIs
 
 **1.0.1**
 
