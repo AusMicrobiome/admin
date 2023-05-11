@@ -10,6 +10,12 @@ Contains:
 
 **Version history**
 
+**3.1.0**
+- New fields added to `Coastal Water` and `Pelagic Water` sheets
+    - `Part_org_carb_(μmol/L)`
+
+    - `Part_org_carb_method`
+
 **3.0.0**
 - Submission sheets are compatible with version 4.0.0 of the contextual database:
 https://github.com/AusMicrobiome/contextualdb_doc/raw/4.0.0/db_schema_definitions/db_schema_definitions.xlsx
